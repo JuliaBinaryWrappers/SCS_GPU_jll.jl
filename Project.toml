@@ -1,0 +1,11 @@
+name = "SCS_GPU_jll"
+uuid = "af6e375f-46ec-5fa0-b791-491b0dfa44a4"
+version = "2.1.2+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+OpenBLAS_jll = "4536629a-c528-5b80-bd46-f80d51c5b363"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
