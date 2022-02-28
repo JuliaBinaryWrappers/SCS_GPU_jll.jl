@@ -1,9 +1,9 @@
 [[SCS_GPU]]
 arch = "x86_64"
-git-tree-sha1 = "d722189c1871c823feb7ac18060427a97ee97417"
+git-tree-sha1 = "12bc9010f5b61b4b5bc3521e0b73f451f4a4e69d"
 libc = "glibc"
 os = "linux"
 
     [[SCS_GPU.download]]
-    sha256 = "9702f9569fbac1b59f1a2f91805d9b431d279812d4925eebce7f2824dbc906ce"
-    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v3.0.0+0/SCS_GPU.v3.0.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "bf36a597bb0ae1bd236fe3da41a76911cd0598f47e072cc48376bbd45b288204"
+    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v3.2.0+0/SCS_GPU.v3.2.0.x86_64-linux-gnu.tar.gz"
