@@ -6,5 +6,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("SCS_GPU")
-JLLWrappers.@generate_main_file("SCS_GPU", UUID("af6e375f-46ec-5fa0-b791-491b0dfa44a4"))
+JLLWrappers.@generate_main_file("SCS_GPU", Base.UUID("af6e375f-46ec-5fa0-b791-491b0dfa44a4"))
 end  # module SCS_GPU_jll
