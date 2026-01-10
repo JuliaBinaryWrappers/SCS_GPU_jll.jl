@@ -1,50 +1,50 @@
 [[SCS_GPU]]
 arch = "x86_64"
 cuda = "11.4"
-git-tree-sha1 = "60d205b1948708d0e189c25238b4e225372be4ce"
+git-tree-sha1 = "ce7988b7baba14cc883cc0b4a79391752e8d1855"
 libc = "glibc"
 os = "linux"
 
     [[SCS_GPU.download]]
-    sha256 = "6d5da492a3af29db895f66c88600eb4312c0339f067f341a45ae64a96da6251b"
-    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1000+0/SCS_GPU.v300.200.1000.x86_64-linux-gnu-cuda+11.4.tar.gz"
+    sha256 = "cc3510922cd6e174c2eae9f2d8b165672d1716292ca61f217e8d08eb494e3ec1"
+    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1100+0/SCS_GPU.v300.200.1100.x86_64-linux-gnu-cuda+11.4.tar.gz"
 [[SCS_GPU]]
 arch = "x86_64"
 cuda = "11.5"
-git-tree-sha1 = "86f944de7fb31651f27a0eba0c96cd66efd578aa"
+git-tree-sha1 = "2ff08e24e3e049bf7964cc0bbdd29bcebd149ab2"
 libc = "glibc"
 os = "linux"
 
     [[SCS_GPU.download]]
-    sha256 = "db2b10bcd1970120b19d7322502cb891bb40de9e5ace834125ae3ebcfd856dbd"
-    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1000+0/SCS_GPU.v300.200.1000.x86_64-linux-gnu-cuda+11.5.tar.gz"
+    sha256 = "37a3b27f755495a5c833cded7d8ff905718148d0c911a705f69d7fb2b622c6ec"
+    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1100+0/SCS_GPU.v300.200.1100.x86_64-linux-gnu-cuda+11.5.tar.gz"
 [[SCS_GPU]]
 arch = "x86_64"
 cuda = "11.6"
-git-tree-sha1 = "378f531c652beaeeab728ec96a3043ac3e654cc9"
+git-tree-sha1 = "2c3b2a624692f83725f4d31dace2f29799624599"
 libc = "glibc"
 os = "linux"
 
     [[SCS_GPU.download]]
-    sha256 = "e5eefafef3d44a80533441117e5bd41d3826b504b17831828182adeadb3cdda1"
-    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1000+0/SCS_GPU.v300.200.1000.x86_64-linux-gnu-cuda+11.6.tar.gz"
+    sha256 = "aa0f2df3f0e03b19548d526a9283a3d50d11c034a6c588fa892188068db1adbb"
+    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1100+0/SCS_GPU.v300.200.1100.x86_64-linux-gnu-cuda+11.6.tar.gz"
 [[SCS_GPU]]
 arch = "x86_64"
 cuda = "11.7"
-git-tree-sha1 = "b06fe7a9edeb971ecee99470373532df24530ebb"
+git-tree-sha1 = "998f31001c2a596d22d097072f16b089c63f07d5"
 libc = "glibc"
 os = "linux"
 
     [[SCS_GPU.download]]
-    sha256 = "eaab1232cc39e1879843ec9f7d6b0c6d66b9045371155e8dec75c6936170afd4"
-    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1000+0/SCS_GPU.v300.200.1000.x86_64-linux-gnu-cuda+11.7.tar.gz"
+    sha256 = "3d9739dbecb10b23766b9e790bf32a5b99b3019db3c09ad680b39be320d7e43c"
+    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1100+0/SCS_GPU.v300.200.1100.x86_64-linux-gnu-cuda+11.7.tar.gz"
 [[SCS_GPU]]
 arch = "x86_64"
 cuda = "11.8"
-git-tree-sha1 = "11e54d84541138c298d3278492b09a63f98f8e85"
+git-tree-sha1 = "f6b370a88743a32a1a30d5e1205dab73af028247"
 libc = "glibc"
 os = "linux"
 
     [[SCS_GPU.download]]
-    sha256 = "da7c61dbc7b7fadd62d07658dd71324590dbfbf5b00415806c7591af46f9e6cf"
-    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1000+0/SCS_GPU.v300.200.1000.x86_64-linux-gnu-cuda+11.8.tar.gz"
+    sha256 = "9d45a3c57f36d6051118fd01dccf401ea86aa23191182cd3a72631ccdca08b0a"
+    url = "https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v300.200.1100+0/SCS_GPU.v300.200.1100.x86_64-linux-gnu-cuda+11.8.tar.gz"
