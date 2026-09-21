@@ -12,7 +12,11 @@ const CUDA_Runtime_jll_uuid = Base.UUID("76a88914-d11a-5bdc-97e0-2f5a05c973a2")
 const preferences = Base.get_preferences(CUDA_Runtime_jll_uuid)
 Base.record_compiletime_preference(CUDA_Runtime_jll_uuid, "version")
 Base.record_compiletime_preference(CUDA_Runtime_jll_uuid, "local")
-const local_toolkit = something(tryparse(Bool, get(preferences, "local", "false")), false)
+# the `local` preference is a boolean, but CUDA.jl's `set_runtime_version!` writes it
+# as a string, and hand-written LocalPreferences.toml files use either spelling.
+const local_toolkit = let pref = get(preferences, "local", false)
+    pref isa Bool ? pref : something(tryparse(Bool, pref), false)
+end
 
 function cuda_comparison_strategy(_a::String, _b::String, a_requested::Bool, b_requested::Bool)
     # if we're using a local toolkit, we can't use artifacts

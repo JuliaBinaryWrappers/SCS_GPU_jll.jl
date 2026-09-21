@@ -5,7 +5,7 @@ using libblastrampoline_jll
 using CompilerSupportLibraries_jll
 using CUDA_Runtime_jll
 JLLWrappers.@generate_wrapper_header("SCS_GPU")
-JLLWrappers.@declare_library_product(libscsgpuindir, "libscsgpuindir.so")
+JLLWrappers.@declare_library_product(libscsgpuindir, "libscsgpuindir.so.3.3")
 function __init__()
     JLLWrappers.@generate_init_header(libblastrampoline_jll, CompilerSupportLibraries_jll, CUDA_Runtime_jll)
     JLLWrappers.@init_library_product(
